@@ -1,0 +1,183 @@
+canvas{
+  position: absolute;
+  display: block;
+  z-index:-1;
+}
+
+.containerFather{
+	width: 95%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+  display: flex;
+
+  justify-content: space-between;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #111b3e;
+  background-color: rgb(20, 28, 78);
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+}
+
+.containerChild{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.card {
+  min-width: 250px;
+  max-width: 500px;
+
+	border-radius: 20px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+  margin: 15px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+}
+.card .textos {
+	height: 100%;	
+}
+
+
+.banner {
+  min-width: 200px;
+	border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+}
+.banner ul {
+	list-style: none;
+}
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+
+/*
+/* ------ TODO LO ANTERIOR ------ */
+.logo{
+    width: 64px;
+    cursor: pointer;
+}
+li, a, .contact{
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 10;
+
+    margin-bottom: 50px;
+}
+
+#select{
+  font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+footer{
+  padding:0;
+  margin:0;
+  text-align:center;
+  background-color: rgba(245, 231, 235, 0.005);
+}
+
+.navbarLinks{
+    list-style-type:armenian;
+}
+.navbarLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navbarLinks li a{
+    transition: all 0.3s ease 0s;
+}
+.navbarLinks li a:hover {
+    color: #0088a9;
+}
+
+.contact{
+    padding: 9px 25px;
+    background-color: rgba(150, 25, 25, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;   
+ }
+.contact:hover{
+    background-color: rgba(150, 25, 25, 0.8);
+}
+
+.columns{
+    display: flex;
+}
+
+.columns .column{
+    display: flex;
+    flex: 1;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#particles-js{
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
